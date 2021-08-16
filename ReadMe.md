@@ -12,7 +12,7 @@ h-> hide inspectors
 
 ## Preview
 
-[]!gif/sample.gif
+![](gif/sample.gif)
 
 
 
