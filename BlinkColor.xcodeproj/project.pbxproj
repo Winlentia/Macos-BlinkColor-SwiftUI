@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7887ACB126CB063A0051CF7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7887ACB026CB063A0051CF7F /* AppDelegate.swift */; };
+		7887ACB326CB063A0051CF7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7887ACB226CB063A0051CF7F /* ContentView.swift */; };
+		7887ACB626CB063A0051CF7F /* BlinkColor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7887ACB426CB063A0051CF7F /* BlinkColor.xcdatamodeld */; };
+		7887ACB826CB06400051CF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7887ACB726CB06400051CF7F /* Assets.xcassets */; };
+		7887ACBB26CB06400051CF7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7887ACBA26CB06400051CF7F /* Preview Assets.xcassets */; };
+		7887ACBE26CB06400051CF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7887ACBC26CB06400051CF7F /* Main.storyboard */; };
+		7887ACCA26CB06410051CF7F /* BlinkColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7887ACC926CB06410051CF7F /* BlinkColorTests.swift */; };
+		7887ACD526CB06410051CF7F /* BlinkColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7887ACD426CB06410051CF7F /* BlinkColorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7887ACC626CB06410051CF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7887ACA526CB063A0051CF7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7887ACAC26CB063A0051CF7F;
+			remoteInfo = BlinkColor;
+		};
+		7887ACD126CB06410051CF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7887ACA526CB063A0051CF7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7887ACAC26CB063A0051CF7F;
+			remoteInfo = BlinkColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7887ACAD26CB063A0051CF7F /* BlinkColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7887ACB026CB063A0051CF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7887ACB226CB063A0051CF7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7887ACB526CB063A0051CF7F /* BlinkColor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlinkColor.xcdatamodel; sourceTree = "<group>"; };
+		7887ACB726CB06400051CF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7887ACBA26CB06400051CF7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7887ACBD26CB06400051CF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7887ACBF26CB06400051CF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7887ACC026CB06400051CF7F /* BlinkColor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlinkColor.entitlements; sourceTree = "<group>"; };
+		7887ACC526CB06410051CF7F /* BlinkColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7887ACC926CB06410051CF7F /* BlinkColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkColorTests.swift; sourceTree = "<group>"; };
+		7887ACCB26CB06410051CF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7887ACD026CB06410051CF7F /* BlinkColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7887ACD426CB06410051CF7F /* BlinkColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkColorUITests.swift; sourceTree = "<group>"; };
+		7887ACD626CB06410051CF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7887ACAA26CB063A0051CF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7887ACC226CB06410051CF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7887ACCD26CB06410051CF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7887ACA426CB063A0051CF7F = {
+			isa = PBXGroup;
+			children = (
+				7887ACAF26CB063A0051CF7F /* BlinkColor */,
+				7887ACC826CB06410051CF7F /* BlinkColorTests */,
+				7887ACD326CB06410051CF7F /* BlinkColorUITests */,
+				7887ACAE26CB063A0051CF7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7887ACAE26CB063A0051CF7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7887ACAD26CB063A0051CF7F /* BlinkColor.app */,
+				7887ACC526CB06410051CF7F /* BlinkColorTests.xctest */,
+				7887ACD026CB06410051CF7F /* BlinkColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7887ACAF26CB063A0051CF7F /* BlinkColor */ = {
+			isa = PBXGroup;
+			children = (
+				7887ACB026CB063A0051CF7F /* AppDelegate.swift */,
+				7887ACB226CB063A0051CF7F /* ContentView.swift */,
+				7887ACB726CB06400051CF7F /* Assets.xcassets */,
+				7887ACBC26CB06400051CF7F /* Main.storyboard */,
+				7887ACBF26CB06400051CF7F /* Info.plist */,
+				7887ACC026CB06400051CF7F /* BlinkColor.entitlements */,
+				7887ACB426CB063A0051CF7F /* BlinkColor.xcdatamodeld */,
+				7887ACB926CB06400051CF7F /* Preview Content */,
+			);
+			path = BlinkColor;
+			sourceTree = "<group>";
+		};
+		7887ACB926CB06400051CF7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7887ACBA26CB06400051CF7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7887ACC826CB06410051CF7F /* BlinkColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7887ACC926CB06410051CF7F /* BlinkColorTests.swift */,
+				7887ACCB26CB06410051CF7F /* Info.plist */,
+			);
+			path = BlinkColorTests;
+			sourceTree = "<group>";
+		};
+		7887ACD326CB06410051CF7F /* BlinkColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7887ACD426CB06410051CF7F /* BlinkColorUITests.swift */,
+				7887ACD626CB06410051CF7F /* Info.plist */,
+			);
+			path = BlinkColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7887ACAC26CB063A0051CF7F /* BlinkColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7887ACD926CB06410051CF7F /* Build configuration list for PBXNativeTarget "BlinkColor" */;
+			buildPhases = (
+				7887ACA926CB063A0051CF7F /* Sources */,
+				7887ACAA26CB063A0051CF7F /* Frameworks */,
+				7887ACAB26CB063A0051CF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlinkColor;
+			productName = BlinkColor;
+			productReference = 7887ACAD26CB063A0051CF7F /* BlinkColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7887ACC426CB06410051CF7F /* BlinkColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7887ACDC26CB06410051CF7F /* Build configuration list for PBXNativeTarget "BlinkColorTests" */;
+			buildPhases = (
+				7887ACC126CB06410051CF7F /* Sources */,
+				7887ACC226CB06410051CF7F /* Frameworks */,
+				7887ACC326CB06410051CF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7887ACC726CB06410051CF7F /* PBXTargetDependency */,
+			);
+			name = BlinkColorTests;
+			productName = BlinkColorTests;
+			productReference = 7887ACC526CB06410051CF7F /* BlinkColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7887ACCF26CB06410051CF7F /* BlinkColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7887ACDF26CB06410051CF7F /* Build configuration list for PBXNativeTarget "BlinkColorUITests" */;
+			buildPhases = (
+				7887ACCC26CB06410051CF7F /* Sources */,
+				7887ACCD26CB06410051CF7F /* Frameworks */,
+				7887ACCE26CB06410051CF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7887ACD226CB06410051CF7F /* PBXTargetDependency */,
+			);
+			name = BlinkColorUITests;
+			productName = BlinkColorUITests;
+			productReference = 7887ACD026CB06410051CF7F /* BlinkColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7887ACA526CB063A0051CF7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7887ACAC26CB063A0051CF7F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					7887ACC426CB06410051CF7F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 7887ACAC26CB063A0051CF7F;
+					};
+					7887ACCF26CB06410051CF7F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 7887ACAC26CB063A0051CF7F;
+					};
+				};
+			};
+			buildConfigurationList = 7887ACA826CB063A0051CF7F /* Build configuration list for PBXProject "BlinkColor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7887ACA426CB063A0051CF7F;
+			productRefGroup = 7887ACAE26CB063A0051CF7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7887ACAC26CB063A0051CF7F /* BlinkColor */,
+				7887ACC426CB06410051CF7F /* BlinkColorTests */,
+				7887ACCF26CB06410051CF7F /* BlinkColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7887ACAB26CB063A0051CF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7887ACBE26CB06400051CF7F /* Main.storyboard in Resources */,
+				7887ACBB26CB06400051CF7F /* Preview Assets.xcassets in Resources */,
+				7887ACB826CB06400051CF7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7887ACC326CB06410051CF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7887ACCE26CB06410051CF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7887ACA926CB063A0051CF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7887ACB326CB063A0051CF7F /* ContentView.swift in Sources */,
+				7887ACB626CB063A0051CF7F /* BlinkColor.xcdatamodeld in Sources */,
+				7887ACB126CB063A0051CF7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7887ACC126CB06410051CF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7887ACCA26CB06410051CF7F /* BlinkColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7887ACCC26CB06410051CF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7887ACD526CB06410051CF7F /* BlinkColorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7887ACC726CB06410051CF7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7887ACAC26CB063A0051CF7F /* BlinkColor */;
+			targetProxy = 7887ACC626CB06410051CF7F /* PBXContainerItemProxy */;
+		};
+		7887ACD226CB06410051CF7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7887ACAC26CB063A0051CF7F /* BlinkColor */;
+			targetProxy = 7887ACD126CB06410051CF7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7887ACBC26CB06400051CF7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7887ACBD26CB06400051CF7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7887ACD726CB06410051CF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7887ACD826CB06410051CF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7887ACDA26CB06410051CF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlinkColor/BlinkColor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BlinkColor/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A26P3RMBN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlinkColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.winlentia.BlinkColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7887ACDB26CB06410051CF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlinkColor/BlinkColor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BlinkColor/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A26P3RMBN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BlinkColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.winlentia.BlinkColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7887ACDD26CB06410051CF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A26P3RMBN;
+				INFOPLIST_FILE = BlinkColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.winlentia.BlinkColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlinkColor.app/Contents/MacOS/BlinkColor";
+			};
+			name = Debug;
+		};
+		7887ACDE26CB06410051CF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A26P3RMBN;
+				INFOPLIST_FILE = BlinkColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.winlentia.BlinkColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlinkColor.app/Contents/MacOS/BlinkColor";
+			};
+			name = Release;
+		};
+		7887ACE026CB06410051CF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A26P3RMBN;
+				INFOPLIST_FILE = BlinkColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winlentia.BlinkColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BlinkColor;
+			};
+			name = Debug;
+		};
+		7887ACE126CB06410051CF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9A26P3RMBN;
+				INFOPLIST_FILE = BlinkColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winlentia.BlinkColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BlinkColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7887ACA826CB063A0051CF7F /* Build configuration list for PBXProject "BlinkColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7887ACD726CB06410051CF7F /* Debug */,
+				7887ACD826CB06410051CF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7887ACD926CB06410051CF7F /* Build configuration list for PBXNativeTarget "BlinkColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7887ACDA26CB06410051CF7F /* Debug */,
+				7887ACDB26CB06410051CF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7887ACDC26CB06410051CF7F /* Build configuration list for PBXNativeTarget "BlinkColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7887ACDD26CB06410051CF7F /* Debug */,
+				7887ACDE26CB06410051CF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7887ACDF26CB06410051CF7F /* Build configuration list for PBXNativeTarget "BlinkColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7887ACE026CB06410051CF7F /* Debug */,
+				7887ACE126CB06410051CF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7887ACB426CB063A0051CF7F /* BlinkColor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7887ACB526CB063A0051CF7F /* BlinkColor.xcdatamodel */,
+			);
+			currentVersion = 7887ACB526CB063A0051CF7F /* BlinkColor.xcdatamodel */;
+			path = BlinkColor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7887ACA526CB063A0051CF7F /* Project object */;
+}
